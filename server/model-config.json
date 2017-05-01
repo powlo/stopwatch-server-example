@@ -3,6 +3,7 @@
     "sources": [
       "loopback/common/models",
       "loopback/server/models",
+      "loopback-component-passport/lib/models",
       "../common/models",
       "./models"
     ],
@@ -31,5 +32,13 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "UserCredential": {
+    "dataSource": "db",
+    "public": true
+  },
+  "UserIdentity": {
+    "dataSource": "db",
+    "public": true
   }
 }
