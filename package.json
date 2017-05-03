@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
+    "compile": "gulp compile",
     "lint": "eslint .",
     "start": "node .",
     "posttest": "npm run lint && nsp check"
@@ -25,6 +26,9 @@
   "devDependencies": {
     "eslint": "^2.13.1",
     "eslint-config-loopback": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-html2js": "^0.4.2",
     "nsp": "^2.1.0"
   },
   "repository": {
